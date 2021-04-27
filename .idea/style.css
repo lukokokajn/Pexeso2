@@ -1,0 +1,42 @@
+body{
+    font-family: "Roboto Medium", sans-serif;
+    background: #afdc05;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.seent{
+    color: rgba(0,0,0,0);
+}
+
+.see{
+    color: rgba(0,0,0,1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    perspective: 500px;
+}
+
+.polepexesa div {
+    border: solid black 3px;
+    cursor: pointer;
+    font-size: 70px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.polepexesa {
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
